@@ -1,6 +1,6 @@
 {
   "name": "listformat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny ponyfill for Intl.ListFormat('en')",
   "repository": "git://github.com:keithamus/listformat",
   "license": "MIT",
