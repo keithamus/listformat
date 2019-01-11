@@ -1,6 +1,6 @@
 {
   "name": "listformat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny ponyfill for Intl.ListFormat('en')",
   "main": "umd.js",
   "module": "index.js",
