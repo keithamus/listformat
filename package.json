@@ -4,6 +4,10 @@
   "description": "A tiny ponyfill for Intl.ListFormat('en')",
   "main": "umd.js",
   "module": "index.js",
+  "files": [
+    "index.js",
+    "umd.js"
+  ],
   "scripts": {
     "test": "node -r esm test.js",
     "prepare": "rollup -f umd --output.name listFormat index.js > umd.js"
