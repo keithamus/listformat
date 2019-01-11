@@ -1,0 +1,17 @@
+{
+  "name": "listformat",
+  "version": "1.0.0",
+  "description": "A tiny ponyfill for Intl.ListFormat('en')",
+  "main": "umd.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "node -r esm test.js",
+    "prepare": "rollup -f umd --output.name listFormat index.js > umd.js"
+  },
+  "author": "Keith Cirkel (https://keithcirkel.co.uk)",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.0.84",
+    "rollup": "^1.1.0"
+  }
+}
